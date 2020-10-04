@@ -20,7 +20,7 @@ class GameTest {
   // Step 1 - No Spare / No Strike
   @Test
   void step1_calculate_score_first_roll() {
-    game.setRolls(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0));
+    game.setRolls(Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
     assertThat(game.getScore(), is(1));
   }
 
