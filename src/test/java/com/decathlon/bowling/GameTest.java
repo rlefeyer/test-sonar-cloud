@@ -73,6 +73,7 @@ class GameTest {
     assertThat(game.getScore(), is(11));
   }
 
+  @Test
   void step3_calculate_score_with_strike() {
     game.setRolls(Arrays.asList(10, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0));
     assertThat(game.getScore(), is(13));
