@@ -1,0 +1,18 @@
+#Idea
+*.iml
+*.eml
+*.idea/
+
+#Eclipse
+*.classpath
+*.settings/
+*.project
+*.recommenders/
+*.eclipse-pmd
+
+
+#Java
+target/
+
+#Mac OS
+*.DS_Store
